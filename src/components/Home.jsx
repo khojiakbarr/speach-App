@@ -44,7 +44,7 @@ export default function Home() {
             <span className="text-[25px] text-white"> To speak &gt; </span>
             <img
               onClick={() => recordStart()}
-              className="w-[80px] cursor-pointer"
+              className="w-[80px] cursor-pointer transition-all hover:scale-110 active:scale-95"
               src={micro}
               alt="micro"
             />
